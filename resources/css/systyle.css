@@ -1,0 +1,30 @@
+.css_global_mensajes {
+	/* position: absolute; */
+	position: fixed;
+	/* margin-left: 130px; */
+	top: 60px;
+	left: 238px;
+	/* margin-left: 20%; */
+	z-index: 900;
+	display: inline-block;
+	min-width: 200px;
+	font-size: 13px;
+}
+
+.main-header .logo {
+	background-color: #6dc72a important!;
+}
+
+.css_ltr1_negrita {
+	/* font-weight: bold; */
+	display: block;
+    width: 100%;
+    text-align: left;
+	margin-left: 25%;
+}
+
+.css_ltr_blanco {
+	color: white;
+	margin-left: 10px;
+	display: block;
+}

@@ -1,0 +1,48 @@
+/* Bootstrap 3.3.7 */
+@import url('bootstrap.min.css');
+/* SweetAlert2 */
+@import url('sweetalert2.css');
+/* Font Awesome 4.7.0 */
+@import url('font-awesome.min.css');
+/* AdminLTE */
+@import url('AdminLTE.css');
+
+
+html, body{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;/* 16px */
+	position: relative;
+	background-color: #F5F5F5;
+}
+.MsjAjaxForm{
+	display: none;
+}
+/*=== Login ===*/
+.MainLogin{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 90%;
+	max-width: 300px;
+	padding: 15px;
+	box-sizing: border-box;
+	box-shadow: 0 0 5px rgba(0,0,0,.2);
+	border-top: 7px solid #2196F3;
+	background-color: #fff;
+	color: #777777;
+}
+.MainLogin button{
+	background-color: #2196F3;
+}
+.MainLogin input{
+	border-radius: 0;
+}
+/*=== Barra navegacion ===*/
+.navbar{
+	/* background-color: #1B1B1B; SY */ background-color: #00507d;
+	height: 52px;
+}
